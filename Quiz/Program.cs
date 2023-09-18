@@ -45,7 +45,19 @@ Console.WriteLine($"summan blir {sum}");
 
 if (sum > 3)
 {
-    Console.WriteLine("yay");
+    Console.WriteLine("yay, full pott!!!");
+}
+else if (sum == 2)
+{
+    Console.WriteLine("Bra jobbbat.");
+}
+else if (sum == 1)
+{
+    Console.WriteLine("Bra försök, bättre lycka nästa gång.");
+}
+else if (sum == 0)
+{
+    Console.WriteLine("Plugga lite och kom tillbaks");
 }
 
 Console.ReadLine();
