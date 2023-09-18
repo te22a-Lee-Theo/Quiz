@@ -13,7 +13,7 @@ int sum = 0;
 // sum--;
 // minska med 1
 
-Console.WriteLine("Fråga 1 av 3.\nVad är banan klassificerad som? 1. Grönsak  2. Bär  3. Frukt");
+Console.WriteLine("Fråga 1 av 3.\nVad är banan klassificerad som? \n1. Grönsak  2. Bär  3. Frukt");
 string  number = Console.ReadLine();
 int num = int.Parse(number);
 
@@ -38,6 +38,28 @@ else
     Console.WriteLine("Invalid Response");
 }
 
+
+Console.WriteLine("Fråga 2 av 3.\nVad är summan av två motstånde sidor på en vanlig tärning? \n1. Summan är 7  2. Summan är 8  3. Summan är 9");
+string wasd = Console.ReadLine();
+int was = int.Parse(wasd);
+
+if (was == 1)
+{
+    Console.WriteLine("Rätt svar, en poäng.");
+    sum ++;
+}
+else if (was == 2)
+{
+    Console.WriteLine("Fel svar, ingen poäng.");
+}
+else if (was == 3)
+{
+    Console.WriteLine("Fel svar ingen poäng");
+}
+else
+{
+    Console.WriteLine("Invalid Response");
+}
 
 
 
